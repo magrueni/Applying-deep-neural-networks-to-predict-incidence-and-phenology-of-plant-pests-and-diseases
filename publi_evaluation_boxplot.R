@@ -2,7 +2,6 @@
 # Script for plotting the performance of the DNNs in a boxplot #############
 ############################################################################
 # Marc Grünig 01.06.2021  ##################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 ### plot the performance of the DNNs in a boxplot with the different categories on the x axes including field and standdardized pictures

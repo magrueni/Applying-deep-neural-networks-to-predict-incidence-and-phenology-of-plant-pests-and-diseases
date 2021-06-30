@@ -2,7 +2,6 @@
 # Script using the DNN to predict the images into classes ##################
 ############################################################################
 # Marc Grünig 01.06.2021 ###################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 ### After the evaluation of the DNNs with the 5-CV we can take the best performing Network and predict the rest of the dataset

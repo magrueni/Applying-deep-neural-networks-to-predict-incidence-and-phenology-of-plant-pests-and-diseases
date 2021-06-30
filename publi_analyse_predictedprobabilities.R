@@ -2,7 +2,6 @@
 # Script for splitting the predicted probability output of the DNNs ########
 ############################################################################
 # Marc Grünig 01.06.2021 ###################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 # libraries
@@ -29,7 +28,7 @@ write.table(number.pred,paste(fl_nme,"/Results/Labpics_probabilities_all/numbers
 
 ### Then calculate the numbers for the different locations
 # split up to the different locations
-locations <- c("Gel","Kle")#,"Wae","Got")
+locations <- c("Gel","Kle")
 output_Gel <- output_all[output_all$location == "Gel",]
 output_Kle <- output_all[output_all$location == "Kle",]
 

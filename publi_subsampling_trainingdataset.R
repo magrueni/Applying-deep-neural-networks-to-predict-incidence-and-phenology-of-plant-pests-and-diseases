@@ -2,7 +2,6 @@
 # Script for phenology models correcting for temporal autocorrelation  #####
 ############################################################################
 # Marc Grünig 01.06.2021 ###################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 ### In this script we do the subsampling of the manually categorized data for the training process

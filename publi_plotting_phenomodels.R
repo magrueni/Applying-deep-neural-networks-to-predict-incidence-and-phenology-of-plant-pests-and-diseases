@@ -2,7 +2,6 @@
 # Script to plot the phenological models ###################################
 ############################################################################
 # Marc Grünig 01.06.2021 ###################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 #libraries
@@ -152,11 +151,6 @@ i <- 2
   #text(x=28.1,y=50,"August 1",font=3,cex=1)
 
 
-  
-  #Mod.JulianDay <- glm(Dat[,4] ~ poly(Dat$JulianDay,2))
-  #Mod.ddg <- glm(Dat[,4] ~ poly(Dat$gdd,2))
-
-
 ### plot
 letters <- c("a)","b)","c)","d)")
 par(mfrow=c(2,2),mar=c(4,4,1,2),xpd=F,oma=c(2,0.5,0,0))
@@ -248,6 +242,4 @@ dev.print(png,paste(fl_nme,"/Graphs/Fig5_4panels_01102020.png",sep=""),height=50
 plot.new()
 legend("topleft",c("DNN reconstructed phenology","Degree-day model"),col=c("black","red"),lwd=2, lty=c(1,1),bty="n",cex=1.4)
 dev.print(png,paste(fl_nme,"/Graphs/Fig5_legend.png",sep=""),height=500)
-########################################################
-#### predict the model to the conditions from last year
-########################################################
+

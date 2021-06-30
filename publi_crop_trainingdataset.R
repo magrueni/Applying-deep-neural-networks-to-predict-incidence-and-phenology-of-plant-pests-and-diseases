@@ -2,7 +2,6 @@
 # Script for cropping the training images ##################################
 ############################################################################
 # Marc Grünig 01.06.2021 ###################################################
-# cleaned ++++++++++++++ ###################################################
 ############################################################################
 
 ### After splitting the training data we can crop the images
@@ -11,6 +10,7 @@ library(imager)
 library(raster)
 library(filesstrings)
 library(magick)
+
 #set working directory
 fl_nme <- ""
 
